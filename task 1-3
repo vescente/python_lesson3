@@ -1,0 +1,35 @@
+# List methods
+list_methods = [
+    "append(element)",
+    "extend(iterable)",
+    "insert(index, element)",
+    "remove(element)",
+    "pop(index=-1)"
+]
+
+# Dictionary methods
+dict_methods = [
+    "get(key, default=None)",
+    "keys()",
+    "values()",
+    "items()",
+    "update([other])"
+]
+
+# Set methods
+set_methods = [
+    "add(element)",
+    "remove(element)",
+    "discard(element)",
+    "union(*others)",
+    "intersection(*others)"
+]
+
+# String methods
+str_methods = [
+    "split(sep=None, maxsplit=-1)",
+    "join(iterable)",
+    "replace(old, new, count=-1)",
+    "find(sub, start=0, end=-1)",
+    "lower()"
+]

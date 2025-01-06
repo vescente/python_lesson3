@@ -1,35 +1,45 @@
 # List methods
-list_methods = [
-    "append(element)",
-    "extend(iterable)",
-    "insert(index, element)",
-    "remove(element)",
-    "pop(index=-1)"
-]
+my_list = [1, 2, 3, 4, 5]
+my_list.append(6)  # append(x)
+my_list.remove(3)  # remove(x)
+my_list.insert(2, 10)  # insert(i, x)
+my_list.pop(1)  # pop(i)
+my_list.sort()  # sort()
+
+print("List after operations:", my_list)
 
 # Dictionary methods
-dict_methods = [
-    "get(key, default=None)",
-    "keys()",
-    "values()",
-    "items()",
-    "update([other])"
-]
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+my_dict.update({'d': 4})  # update([other])
+my_dict.pop('b')  # pop(key[, default])
+my_dict.keys()  # keys()
+my_dict.values()  # values()
+my_dict.items()  # items()
+
+print("Dictionary after operations:", my_dict)
 
 # Set methods
-set_methods = [
-    "add(element)",
-    "remove(element)",
-    "discard(element)",
-    "union(*others)",
-    "intersection(*others)"
-]
+my_set = {1, 2, 3, 4, 5}
+my_set.add(6)  # add(elem)
+my_set.remove(3)  # remove(elem)
+my_set.update([7, 8, 9])  # update([other])
+my_set.pop()  # pop()
+my_set.clear()  # clear()
+
+print("Set after operations:", my_set)
 
 # String methods
-str_methods = [
-    "split(sep=None, maxsplit=-1)",
-    "join(iterable)",
-    "replace(old, new, count=-1)",
-    "find(sub, start=0, end=-1)",
-    "lower()"
-]
+my_string = "hello world"
+my_string_upper = my_string.upper()  # upper()
+my_string_lower = my_string.lower()  # lower()
+my_string_replace = my_string.replace(
+    "world", "there")  # replace(old, new[, count])
+my_string_split = my_string.split()  # split([sep[, maxsplit]])
+my_string_find = my_string.find("world")  # find(sub[, start[, end]])
+
+print("String after operations:")
+print("Upper:", my_string_upper)
+print("Lower:", my_string_lower)
+print("Replace:", my_string_replace)
+print("Split:", my_string_split)
+print("Find:", my_string_find)
